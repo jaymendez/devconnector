@@ -1,0 +1,26 @@
+{
+    "name": "devconnector",
+    "version": "1.0.0",
+    "description": "Practice App. Social Network for devs",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js"
+    },
+    "author": "Jay Mendez",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "concurrently": "^4.1.0",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.5.1",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "validator": "^10.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.11"
+    }
+}
